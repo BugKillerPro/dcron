@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 
+	examplesCommon "github.com/BugKillerPro/dcron/examples/common"
 	"github.com/go-redis/redis/v8"
-	examplesCommon "github.com/libi/dcron/examples/common"
 )
 
 var (

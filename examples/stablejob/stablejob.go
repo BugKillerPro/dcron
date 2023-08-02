@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
+	"github.com/BugKillerPro/dcron"
+	"github.com/BugKillerPro/dcron/dlog"
+	"github.com/BugKillerPro/dcron/driver"
+	examplesCommon "github.com/BugKillerPro/dcron/examples/common"
 	"github.com/go-redis/redis/v8"
-	"github.com/libi/dcron"
-	"github.com/libi/dcron/dlog"
-	"github.com/libi/dcron/driver"
-	examplesCommon "github.com/libi/dcron/examples/common"
 )
 
 type EnvConfig struct {

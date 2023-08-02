@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/BugKillerPro/dcron"
+	"github.com/BugKillerPro/dcron/dlog"
+	"github.com/BugKillerPro/dcron/driver"
 	"github.com/go-redis/redis/v8"
-	"github.com/libi/dcron"
-	"github.com/libi/dcron/dlog"
-	"github.com/libi/dcron/driver"
 	"github.com/robfig/cron/v3"
 	"github.com/stretchr/testify/require"
 )
