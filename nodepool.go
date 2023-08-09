@@ -115,7 +115,7 @@ func (np *NodePool) updateHashRing(nodes []string) {
 	np.rwMut.Lock()
 	defer np.rwMut.Unlock()
 	if np.equalRing(nodes) {
-		np.logger.Infof("nowNodes=%v, preNodes=%v", nodes, np.preNodes)
+		//np.logger.Infof("nowNodes=%v, preNodes=%v", nodes, np.preNodes)
 		return
 	}
 	np.logger.Infof("update hashRing nodes=%+v", nodes)
